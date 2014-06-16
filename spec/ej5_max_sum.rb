@@ -23,5 +23,10 @@ describe '#max_sum' do
   it 'return the missing number' do
     expect(max_sum([2, 5, 6, 5, 3])).to eq 11
   end
-
+  it 'return the max sum of 8 + 3 + 5 + 7' do
+    expect(max_sum([8,1,2,3,4,5,6,7])).to eq(8 + 3 + 5 + 7)
+  end
+  it 'return the max sum of 10' do
+    expect(max_sum([1, -2, 7, 9])).to eq(10)
+  end
 end

@@ -14,7 +14,7 @@ end
 describe '#string_foo' do
 
   it 'return a foo string' do
-    expect(String.new.foo).to eq ["foo"]
+    expect(String.new.foo).to eq "foo"
   end
 
 end
